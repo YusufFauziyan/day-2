@@ -1,0 +1,62 @@
+body {
+    margin:0;
+}
+
+nav {
+    background-color: rgb(214, 211, 211);
+    display: flex;
+    height: 7vh;
+}
+
+.nav-left {
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+
+.nav-left li {
+    display: inline;
+}
+
+.nav-left li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.container {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 85%;
+    display: flex;
+}
+
+.section-left {
+    flex: 30%;
+}
+
+.section-right {
+    flex: 70%;
+}
