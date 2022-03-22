@@ -13,7 +13,7 @@ a {
 nav {
     background-color: rgb(244,243,243);
     display: flex;
-    padding: 10px 50px;
+    padding: 10px 10%;
     height: 7vh;
 }
 
