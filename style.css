@@ -91,7 +91,7 @@ p {
     flex: 60;
 }
 
-.section-left button {
+.section-left .btn {
     border: none;
     background-color: rgb(17,23,39);
     color: white;
@@ -99,9 +99,10 @@ p {
     border-radius: 30px;
     margin: 0 30px 30px 0;
     cursor: pointer;
+    display: inline-block;
 }
 
-.section-left button:hover {
+.section-left .btn:hover {
     color: black;
     background-color: white;
     box-shadow: 0 0 3px grey;
@@ -152,7 +153,10 @@ p {
     width: 100%;
 }
 
-/* CONTACT FORM */
+
+
+                    /* CONTACT FORM */
+                    
 .contact-form {
     background-color: rgb(226,230,234);
     height: 93vh;
