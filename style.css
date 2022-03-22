@@ -48,21 +48,21 @@ nav {
     border-radius: 8px;
 }
 
-.nav-right a:hover {
+/* .nav-right a:hover {
     transition: .3s;
     color: black;
     background-color: white;
     font-weight: bold;
     box-shadow: 0 0 3px black;
-}
+} */
 
 .active {
     font-weight: bold;
 }
 
-.nav:hover {
+/* .nav:hover {
     color: grey;
-}
+} */
 
 .container {
     background-color: rgb(226,230,234);
@@ -102,7 +102,7 @@ p {
     display: inline-block;
 }
 
-.section-left .btn:hover {
+/* .section-left .btn:hover {
     color: black;
     background-color: white;
     box-shadow: 0 0 3px grey;
@@ -111,7 +111,7 @@ p {
 
 .section-left a:hover {
     color: grey;
-}
+} */
 
 .social-media {
     font-size: 40px;
@@ -122,10 +122,10 @@ p {
     cursor: pointer;
 }
 
-.social-media .bx:hover {
+/* .social-media .bx:hover {
     color: grey;
     transition: .3s;
-}
+} */
 
 
 .section-right {
@@ -204,11 +204,11 @@ p {
     font-weight: bold;
 }
 
-#submit:hover {
+/* #submit:hover {
     color: black;
     transition: .3s;
     background-color: white;
-    box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black; */
 }
 
 
